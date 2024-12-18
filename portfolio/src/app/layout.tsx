@@ -1,14 +1,12 @@
+
+
 import type { Metadata } from "next";
 import "./globals.css";
-import Footer from "@/components/footer/Footer";
-import Navigation from "@/components/navigation/Navigation";
-
-
-
-
+import Footer from "@/components/Footer";
+import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
-  title: "Brandon Pinzon Frontend Dev",
+  title: "Brandon Pinzon Front-end Dev",
   description: "Brandon Pinzons's portfolio",
 };
 

@@ -7,10 +7,10 @@ const Navigation = () => {
       id='navigation'
     >
       <ul className='flex h-full w-full flex-row font-thin items-center text-lg gap-10 text-[#b7c9cd]'>
-        <li className='text-lg font-medium'><a href="#">{`< Brandon />`}</a></li>
+        <li className='text-lg font-medium'><a href="#Main">{`< Brandon />`}</a></li>
         <li><a href="#About">Acerca de mi</a></li>
         <li><a href="#Projects">Proyectos</a></li>
-        <li><a href="#">Contáctame</a></li>
+        <li><a href="#Contact">Contáctame</a></li>
       </ul>
     </nav>
   )
