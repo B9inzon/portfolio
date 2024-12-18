@@ -8,6 +8,7 @@ export const myProjects: IProject[] = [
         "technologies": [" HTML ", "-", " CSS ", "-", " Tailwind ", "-", " Figma ", "-", " TypeScript ", "-", " Next.js "],
         "repo": "https://github.com/efetine/gamevault-frontend/tree/main",
         "description":"Este e-commerce tenía como objetivo la venta de videojuegos digitales, consolas, tarjetas de regalo y accesorios.",
+        "date": "Nov - 2024",
     },
     {
         "title": "Think-Tech",
@@ -15,5 +16,7 @@ export const myProjects: IProject[] = [
         "technologies": [" Next.js ", "-", " Tailwind ", "-", " Figma "," CSS ", "-", " JavaScript ", "-", " PostegreSQL " ],
         "repo": "https://github.com/B9inzon/Think-Tech",
         "description":"Este e-commerce tenía como objetivo la venta de dispositivos de tecnología como computadores, celulares, accesorios entre otros.",
+        "date": "Oct - 2024",
+
     },   
 ]

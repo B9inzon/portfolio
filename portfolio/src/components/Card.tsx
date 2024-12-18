@@ -7,13 +7,14 @@ const ProjectCard: React.FC<IProject> = ({
   demo,
   technologies,
   description,
+  date,
 }) => {
   const techBadges = technologies
   .filter(tech => tech !== "-")
   .map(tech => tech.trim());
 
   return (
-    <div className="flex flex-row w-[80%] m-auto items-center justify-center gap-20 bg-opacity-80 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl mb-20 bg-[#04171b] pt-8 pb-4 px-8 ">
+    <div className="flex flex-row w-[80%] m-auto items-center justify-center gap-28 bg-opacity-80 rounded-2xl shadow-md overflow-hidden transition-all duration-700 mb-20 bg-gradient-to-tl from-[#030f12]  to-[#04171b] hover:bg-gradient-to-tl hover:from-[#04171b] hover:to-[#030f12] py-8 px-8 ease-in-out">
       <div className=" w-[40%] ">
         <img src={image} alt={title} className="rounded-xl overflow-hidden " />
       </div>
@@ -22,12 +23,13 @@ const ProjectCard: React.FC<IProject> = ({
           {title}
         </h2>
         <p className="text-lg text-[#cfdbde] mb-8">{description}</p>
+        <p className="text-lg text-[#cfdbde] mb-8 font-medium">{date}</p>
         {/* <p className="text-md font-medium text-[#cfdbde] mb-16">{technologies}</p> */}
         <div className="flex flex-wrap gap-2 mb-16">
           {techBadges.map((tech, index) => (
             <span
               key={index}
-              className="px-2 py-1 bg-[#0f4d5b] text-[#e7edee] text-sm font-medium rounded-md"
+              className="px-2 py-1 bg-gradient-to-b from-[#0f4d5b] to-[#07262d] text-[#e7edee] text-sm font-medium rounded-md"
             >
               {tech}
             </span>

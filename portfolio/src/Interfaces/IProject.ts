@@ -5,5 +5,6 @@ export interface IProject{
     image: string;
     technologies: string[];
     description: string;
+    date: string;
 }
 
