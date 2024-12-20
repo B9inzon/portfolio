@@ -1,6 +1,7 @@
 
 
-import { FaGithub, FaLinkedin  } from "react-icons/fa";
+import { MailIcon } from 'lucide-react';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiCss3, SiFigma, SiHtml5, SiJavascript, SiNextdotjs, SiNodedotjs, SiNpm, SiReact, SiTailwindcss } from "react-icons/si";
 
 export const icons = [
@@ -8,12 +9,18 @@ export const icons = [
         image: FaGithub,
         url: "https://github.com/B9inzon"
     },
-
+    {
+        image: MailIcon,
+        url: "mailto:brandonpinzont@gmail.com",
+        label: "brandonpinzont@gmail.com"
+    }, 
     {
         image: FaLinkedin,
         url: "https://www.linkedin.com/in/brandon-smith-pinz%C3%B3n-tovar-frontend-developer/"
-    },    
+    }, 
 ]
+
+
 
 export const skills = [
     {

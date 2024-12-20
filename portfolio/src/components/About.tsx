@@ -44,7 +44,7 @@ const About = () => {
                 >
                   <IconComponent
                     size={50}
-                    className="text-[#b7c9cd] group-hover:text-[#cfdbde] group-hover:scale-125 transition-all duration-700 ease-in-out"
+                    className="text-[#b7c9cd] group-hover:text-[#cfdbde] group-hover:scale-105 transition-all duration-700 ease-in-out"
                   />
                 </Link>
               );

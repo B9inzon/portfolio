@@ -14,7 +14,7 @@ const ProjectCard: React.FC<IProject> = ({
   .map(tech => tech.trim());
 
   return (
-    <div className="flex flex-row w-[80%] m-auto items-center justify-center gap-28 bg-opacity-80 rounded-2xl shadow-md overflow-hidden transition-all duration-700 mb-20 bg-gradient-to-tl from-[#030f12]  to-[#04171b] hover:bg-gradient-to-tl hover:from-[#04171b] hover:to-[#030f12] py-8 px-8 ease-in-out">
+    <div className="flex flex-row w-[80%] m-auto items-center justify-center gap-28 bg-opacity-80 rounded-2xl shadow-md overflow-hidden transition-all duration-700 mb-20 bg-gradient-to-tl from-[#04171b] via-[#030f12]  to-[[#030f12] hover:bg-gradient-to-br hover:from-[#04171b] hover:via-[#030f12]  hover:to-[#030f12] py-8 px-8 ease-in-out">
       <div className=" w-[40%] ">
         <img src={image} alt={title} className="rounded-xl overflow-hidden " />
       </div>
@@ -24,7 +24,6 @@ const ProjectCard: React.FC<IProject> = ({
         </h2>
         <p className="text-lg text-[#cfdbde] mb-8">{description}</p>
         <p className="text-lg text-[#cfdbde] mb-8 font-medium">{date}</p>
-        {/* <p className="text-md font-medium text-[#cfdbde] mb-16">{technologies}</p> */}
         <div className="flex flex-wrap gap-2 mb-16">
           {techBadges.map((tech, index) => (
             <span
