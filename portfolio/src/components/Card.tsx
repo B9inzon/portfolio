@@ -14,17 +14,17 @@ const ProjectCard: React.FC<IProject> = ({
   .map(tech => tech.trim());
 
   return (
-    <div className="flex flex-row w-[80%] m-auto items-center justify-center gap-28 bg-opacity-80 rounded-2xl shadow-md overflow-hidden transition-all duration-700 mb-20 bg-gradient-to-tl from-[#04171b] via-[#030f12]  to-[[#030f12] hover:bg-gradient-to-br hover:from-[#04171b] hover:via-[#030f12]  hover:to-[#030f12] py-8 px-8 ease-in-out">
-      <div className=" w-[40%] ">
-        <img src={image} alt={title} className="rounded-xl overflow-hidden " />
+    <div className="flex flex-col lg:flex-row w-full lg:w-[80%] m-auto items-center justify-center gap-12 lg:gap-28 bg-opacity-80 rounded-2xl shadow-md overflow-hidden transition-all duration-700 mb-12 lg:mb-20 lg:bg-gradient-to-tl lg:from-[#04171b] lg:via-[#030f12]  lg:to-[#030f12] lg:hover:bg-gradient-to-br lg:hover:from-[#04171b] lg:hover:via-[#030f12]  lg:hover:to-[#030f12] px-2 lg:py-8 lg:px-8 ease-in-out">
+      <div className="w-full lg:w-[40%] ">
+        <img src={image} alt={title} className="rounded-sm lg:rounded-xl overflow-hidden " />
       </div>
-      <div className=" w-[50%]">
-        <h2 className="text-5xl font-extralight text-[#cfdbde] mb-6">
+      <div className="flex flex-col items-center text-center justify-center w-[80%] lg:w-[50%]">
+        <h2 className="text-4xl lg:text-5xl font-extralight text-[#cfdbde] mb-6">
           {title}
         </h2>
-        <p className="text-lg text-[#cfdbde] mb-8">{description}</p>
+        <p className="text-lg lg:text-lg text-[#cfdbde] mb-8">{description}</p>
         <p className="text-lg text-[#cfdbde] mb-8 font-medium">{date}</p>
-        <div className="flex flex-wrap gap-2 mb-16">
+        <div className="flex flex-wrap items-center justify-center gap-2 mb-16">
           {techBadges.map((tech, index) => (
             <span
               key={index}
@@ -34,7 +34,7 @@ const ProjectCard: React.FC<IProject> = ({
             </span>
           ))}
         </div>
-        <div className="flex justify-evenly mb-8">
+        <div className="flex w-full justify-evenly mb-8 ">
           <a
             href={repo}
             target="_blank"
