@@ -1,6 +1,6 @@
 <h1 align="center">Portafolio</h1>
 
-<h2 align="center">Este es mi portafolio. Fue creado usando Next.js y Tailwind. Si les gustó el diseño lo pueden usar como quieran.<h2/>
+<h4 align="center">Este es mi portafolio. Fue creado usando Next.js y Tailwind. Si les gustó el diseño lo pueden usar como quieran.<h4/>
 
 <div id="header" align="center" >
   <h3>
