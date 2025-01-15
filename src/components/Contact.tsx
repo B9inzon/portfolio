@@ -36,7 +36,7 @@ const Contact = () => {
       <section id="Footer" className="flex w-full h-[20%] pt-10 px-2 lg:px-4 ">
         <div className="flex max-w-6xl h-full mx-auto flex-col sm:flex-row items-end mb-5 justify-around gap-4">
           <p className="text-lg text-[#b7c9cd] text-center sm:text-left">
-            &copy; {new Date().getFullYear()} Con ❤ por <span></span>
+            &copy; {new Date().getFullYear()} Con ❤ por <span> </span>
             <a
               href="https://github.com/B9inzon"
               className="hover:underline transition-colors duration-300"
