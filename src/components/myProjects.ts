@@ -2,6 +2,14 @@ import { IProject } from "@/Interfaces/IProject";
 
 export const myProjects: IProject[] = [
     {
+       "title": "Proximamente Muebles Casa River",
+        "image": "./MueblesCasaRiverMosaic.png",
+        "technologies": [" HTML ", "-", " CSS ", "-", " Tailwind ", "-", " Figma ", "-", " JavaScript ", "-", " Vite "],
+        "repo": "https://github.com/B9inzon/MueblesCasaRiver",
+        "description":"Este proyecto funciona como un catálogo online para una fábrica de muebles en el que se va a dirigir al cliente a cotizar directamente con los fabricantes por whatsapp. Por el momento no se va a integrar plataforma de pagos, pero se va a ofrecer toda la información pertinente para que el cliente pueda cotizar la fabricación de sus muebles directamente con los fabricantes.",
+        "date": "Abr - 2025", 
+    },
+    {
         "title": "Game Vault",
         "demo":"https://gamevault-frontend.vercel.app/",
         "image": "./Game-Vault-landing.jpg",
