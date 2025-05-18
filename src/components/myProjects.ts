@@ -2,7 +2,7 @@ import { IProject } from "@/Interfaces/IProject";
 
 export const myProjects: IProject[] = [
     {
-       "title": "Muebles Casa River (PRÓXIMAMENTE)",
+       "title": "Muebles Casa River MVP (PRÓXIMAMENTE)",
         "image": "./MueblesCasaRiverMosaic.png",
         "technologies": [" HTML ", "-", " CSS ", "-", " Tailwind ", "-", " Figma ", "-", " JavaScript ", "-", " Next.js "],
         "repo": "https://github.com/B9inzon/MueblesCasaRiver",
