@@ -3,7 +3,7 @@ import { IProject } from "@/Interfaces/IProject";
 export const myProjects: IProject[] = [
   {
     title: "Muebles Casa River MVP (PRÓXIMAMENTE)",
-    demo: "https://brandonpinzonportfolio.vercel.app/",
+    demo: "https://mueblescasariver.vercel.app/",
     image: "./MueblesCasaRiverMosaic.png",
     technologies: [
       " HTML ",
